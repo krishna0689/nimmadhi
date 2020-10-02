@@ -1,0 +1,1261 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,700,300);
+
+.clearfix {
+    *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+    display: table;
+    content: "";
+    line-height: 0;
+}
+.hide-text {
+    font: 0/0 a;
+    color: transparent;
+    text-shadow: none;
+    background-color: transparent;
+    border: 0;
+}
+.input-block-level {
+    display: block;
+    width: 100%;
+    min-height: 30px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    color: #34495e;
+    background: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+a {
+    -webkit-transition: 300ms;
+    -moz-transition: 300ms;
+    -o-transition: 300ms;
+    transition: 300ms;
+}
+hr {
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #fff;
+}
+
+a:hover,
+a:focus {
+    color: black;
+    text-decoration: none;
+    outline: none;
+}
+.dropdown-menu {
+    margin-top: -1px;
+    min-width: 180px;
+}
+.navbar
+{
+    background-color: #6ca034;
+    margin: 0;
+}
+
+.navbar-brand b {
+    font-family: 'Bubbler One', sans-serif;
+    font-size: 36px;
+    line-height: 69px;
+    color: #F8CE08;
+}
+.navbar-nav {
+
+    margin-top: 0px;
+}
+.navbar-nav > li > a {
+    padding-top: 18px;
+    padding-bottom:18px;
+    color: white;
+    text-align: center;
+}
+.navbar-nav > .active > a,
+.navbar-nav > .active > a:hover,
+.navbar-nav > .active > a:focus,
+.navbar-nav > .open > a,
+.navbar-nav > .open > a:hover,
+.navbar-nav > .open > a:focus {
+    background-color:#130c7e;
+    color:white;
+}
+.navbar-nav > li > a:hover{
+    background-color:#130c7e; 
+    color:white;
+}
+.navbar-nav .dropdown-menu {
+    background-color: #2c3e50;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border: 0;
+    padding: 0;
+    margin-top: -3px;
+
+}
+.navbar-nav .dropdown-menu > li > a {
+    padding: 8px 15px;
+    color:black;
+}
+.navbar-nav > li:hover > a
+.navbar-nav > li:focus > a,
+.navbar-nav > li.active > a {
+    background-color:#407902;
+    color: #130c7e;
+}
+.navbar-nav .dropdown-menu > li:last-child > a {
+    border-radius: 0 0 3px 3px;
+}
+.navbar-nav .dropdown-menu > li.divider {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.navbar-collapse,
+.navbar-form {
+    border-top: 0;
+}
+.no-margin {
+    margin: 0;
+    padding: 0;
+}
+
+#footer h4, li a{
+    color:black;    
+}
+#footer a:hover {
+    color: white;
+    background-color: black;
+    padding:10px;
+    border-radius: 10px;
+}
+footer .footer-contact span
+{
+    font-size:17px;
+    margin-left:15px;
+    color:white;
+    font-weight: 700;
+}
+
+footer .footer-image p
+{
+    font-size: 12px;
+    color: white;
+    font-weight: 500;
+    margin-top: -150px;
+    text-align: center;
+    margin-left: -80px;
+}
+
+#bottom-footer
+{
+    background-color:#fbcf02;
+}
+
+.navbar-brand img
+{
+    width: 100%;
+    margin-top: -9px;
+    margin-left: -8px;
+}
+
+.top-header
+{
+    padding-top: 8px;
+    display:flex;
+    background-color: #fae854;  
+}
+
+.top-header ul li a
+{
+    font-size: 12px;
+    font-weight: 700;
+    color:black;
+    font-style: italic;
+    margin-left:2px;
+    margin-right:2px;
+
+}
+.top-header span
+{
+    font-size: 12px;
+    font-weight: 700;
+    color:black;
+    font-style: italic;
+    margin-left:2px;
+    margin-right:2px;
+
+}
+
+.top-header ul
+{
+    display: flex; 
+    list-style-type: none;
+    float:right;
+    font-style:normal;
+}
+.top-header .bottom-header .navbar-nav li a
+{
+    display: flex; 
+    list-style-type: none;
+    font-style: normal;
+    color:white;
+}
+
+.navbar-brand
+{
+    float:left;
+}
+
+.navbar-collapse ul li
+{
+    font-size: 12px; 
+    font-weight: 800;
+}
+#about-us, #routes,#amenities
+{
+    margin:0px;
+}
+
+#about-us .col-md-5
+{
+    margin-top: 10px;
+    margin-left: -130px;
+}
+#footer b
+{
+    font-size:15px;
+}
+
+#about-us h2
+{
+    color: black;
+    text-align: center;
+    font-size: 32px;
+    margin-top: -17px;
+}
+#about-us img
+{
+    margin-top: 20px;
+}
+#routes h2
+{
+    color:black;
+    text-align: center;
+    font-size:30px;
+}
+#about-us p
+{
+    color:black;
+    text-align: center;
+    font-size:15px;
+    line-height: 37px;
+    font-weight:800;
+}
+#routes p
+{
+    color:black;
+    text-align: center;
+    font-size:18px;
+    line-height: 20px;
+    font-weight:500;
+    margin-bottom:25px;
+}
+.cal
+{
+    margin-top: -31px;
+    margin-right: 10px;  
+    color:#000;
+    float: right;
+}
+
+.useful-links li 
+{
+    display: inline-block;
+    list-style-type: none;
+    border-right: 2px solid black;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 17px;
+    margin-top: 25px;
+
+}
+.useful-links li a{ 
+    color: black;
+    text-decoration: none;
+}
+.useful-links p{ 
+    color: black;
+}
+
+.useful-links
+{
+    margin-left:auto;
+    margin-right:auto;
+}
+
+/**** Print section****/
+
+#print
+{
+    margin-top: -24px;
+    text-align: center;
+    margin-bottom: 67px;
+}
+#print .ticket
+{
+    margin-top:50px;    
+}
+
+.timer-info h1
+{
+    color:#2c2929;
+}
+.print h3
+{
+    font-size:10px;    
+}
+.print input
+{
+    padding:10px;
+    border-radius: 5px;
+    border:2px solid white;
+    margin-bottom:30px;
+    width:80%;
+    text-align: center;
+}
+.print a
+{
+    background-color:maroon;;
+    border-radius: 6px;
+    padding: 10px;
+    margin-top:30px;
+    color:white;
+}
+.print p
+{
+    font-size:13px;
+    margin-top:15px;
+}
+.border
+{
+    border-radius: 5px;
+    border:2px solid white;
+    background-color:#e42224;
+}
+
+/**** End Print section****/
+
+
+/**** Edit section****/
+
+#edit
+{
+    margin-top: -24px;
+    text-align: center;
+    margin-bottom: 67px;
+}
+#edit .ticket
+{
+    margin-top:50px;    
+}
+
+.timer-info h1
+{
+    color:#2c2929;
+}
+.edit h3
+{
+    font-size:10px;    
+}
+.edit input
+{
+    padding:10px;
+    border-radius: 5px;
+    border:2px solid white;
+    margin-bottom:30px;
+    width:80%;
+    text-align: center;
+}
+.edit a
+{
+    background-color:maroon;;
+    border-radius: 6px;
+    padding: 10px;
+    margin-top:30px;
+    color:white;
+}
+.edit p
+{
+    font-size:13px;
+    margin-top:15px;
+}
+.border
+{
+    border-radius: 5px;
+    border:2px solid white;
+    background-color:#e42224;
+}
+
+/**** End Edit section****/
+
+
+/**** cancel section****/
+
+#cancel
+{
+    margin-top: -24px;
+    text-align: center;
+    margin-bottom: 67px;
+}
+#cancel .ticket
+{
+    margin-top:50px;    
+}
+
+.timer-info h1
+{
+    color:#2c2929;
+}
+.cancel h3
+{
+    font-size:10px;    
+}
+.cancel input
+{
+    padding:10px;
+    border-radius: 5px;
+    border:2px solid white;
+    margin-bottom:30px;
+    width:80%;
+    text-align: center;
+}
+.cancel a
+{
+    background-color:maroon;;
+    border-radius: 6px;
+    padding: 10px;
+    margin-top:30px;
+    color:white;
+}
+.cancel p
+{
+    font-size:13px;
+    margin-top:15px;
+}
+.border
+{
+    border-radius: 5px;
+    border:2px solid white;
+    background-color:#e42224;
+}
+
+/**** End cancel section****/
+
+/**** feedback section****/
+
+#feedback
+{
+    margin-top: -24px;
+    text-align: center;
+    margin-bottom: 67px;
+}
+#feedback .ticket
+{
+    margin-top:50px;    
+}
+
+.timer-info h1
+{
+    color:#2c2929;
+}
+.feedback h3
+{
+    font-size:10px;    
+}
+.feedback input
+{
+    padding:10px;
+    border-radius: 5px;
+    border:2px solid white;
+    margin-bottom:30px;
+    width:80%;
+    text-align: center;
+}
+.feedback a
+{
+    background-color:maroon;;
+    border-radius: 6px;
+    padding: 10px;
+    margin-top:30px;
+    color:white;
+}
+.feedback p
+{
+    font-size:13px;
+    margin-top:15px;
+}
+.border
+{
+    border-radius: 5px;
+    border:2px solid white;
+    background-color:#e42224;
+}
+textarea
+{
+    border-radius: 5px;
+    text-align: center;
+    padding:10px;
+    margin-bottom: 20px;
+}
+
+/**** End feedback section****/
+
+/**** Contact Section ****/
+
+#contact
+{
+    margin-top: -24px;
+    text-align: center;
+    margin-bottom: 67px;
+}
+#contact .ticket
+{
+    margin-top:50px;    
+}
+
+.timer-info h1
+{
+    color:#2c2929;
+}
+.contact h3
+{
+    font-size:10px;    
+}
+/**** End Contact Section ****/
+
+.address h3
+{
+    font-size:18px;
+    color:yellow;
+    text-align: left;
+}
+.address p
+{
+    font-size:11px;
+    color:white;
+    text-align: left;
+}
+
+.slider-content
+{
+    margin-top: 0;
+    height: 321px;
+}
+
+/****** Booking Section *****/
+
+.book-div
+{
+    position: absolute;
+    top: 38px;
+    width: 100%;
+    z-index: 100;
+    margin: auto;
+    left: 3px;
+}
+.book-title
+{
+    text-align: center;
+    margin-top: 18px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.book-inner
+{
+    width:100%;
+}
+
+.swapicon
+{
+    position: absolute;
+    left: 272px;
+    top: 53px;
+    z-index: 100; 
+}
+
+.book-div select, input
+{
+    border-radius: 5px;
+    width: 100%;
+    padding:8px;
+    margin-top: 6px;
+    margin-bottom: 15px; 
+    border:1px solid white;
+    font-size: 12px;
+}
+.book-div input
+{
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px; 
+    border:1px solid white;
+    font-size: 12px;
+}
+
+.book-div h4
+{
+    color:white;
+    font-size:15px;
+}
+
+.cal
+{
+    margin-top: -38px;
+    color: #6ca034;
+    float: right;
+    font-size: smaller;
+}
+
+.book-div a
+{
+    background-color: #fff;
+    color: #6ca034;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.n-left
+{
+    top: -11px;
+    left: 10px;
+    z-index: 100;
+}
+.n-right
+{
+    top: -11px;
+    right: 18px;
+    z-index: 100;
+}
+.n-left h1,.n-right h1{
+    font-size: 133px;
+    color:#6ca034;
+    font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+}
+
+#about-us .about-shape
+{
+    border-radius: 100%;
+    box-shadow:5px 5px 5px 5px grey;
+    text-align: center;
+}
+#amenities
+{
+    position: absolute;
+    top: 975px;
+    left: 95px;
+    z-index: 100;
+}
+
+#amenities .amenities-shape
+{
+    border-radius: 100%;
+    box-shadow: 5px 5px 5px 5px grey;
+    background-color: white;
+    text-align: center;
+}
+#amenities .amenities-shape h2
+{
+    color: black;
+    text-align: center;
+    font-size: 32px;
+    margin-top: -17px;
+}
+
+#routes .route-shape
+{
+    border-radius: 100%;
+    box-shadow: 5px 5px 5px 5px grey;
+    text-align: center;
+    background-color: white;
+    position: absolute;
+    left: 275px;
+    top: 1625px;
+    margin-top: 3px;
+}
+
+#routes .route-shape h2
+{
+    color: black;
+    text-align: center;
+    font-size: 32px;
+}
+
+#routes .route-text p
+{
+    margin-top: 141px;
+    margin-left: -330px;
+    line-height: 45px;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+
+.top-footer
+{
+    margin-top:60px;    
+}
+
+.footer-image img
+{
+    margin-top: -129px;
+    margin-left: -70px;
+}
+
+footer
+{
+    display:flex;
+}
+
+#about-us
+{
+    background: url(../images/aboutus.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -100px;
+    padding-bottom: 656px;
+}   
+#routes
+{
+    background: url('../images/routes.png');
+    padding-bottom: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#footer
+{
+    background: url('../images/ft.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 75px;
+}
+
+@media (min-width: 992px)
+{
+
+    .bx-controls
+    {
+        display:none;
+    }
+}
+#book-image
+{
+    background-color:#6ca034;
+}
+
+@media (max-width:1024px)
+{
+    n-left h1, .n-right h1 {
+        font-size: 132px !important;
+        color: #6ca034 !important;
+        font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif !important;
+    }
+    .n-left {
+        top: -27px !important;
+        left: -20px !important;
+        z-index: 100 !important;
+    }
+    .slider-content {
+        margin-top: 0 !important;
+        height: 228px !important;
+    }
+    #about-us {
+        background: url(../images/aboutus.png)!important;
+        background-repeat: no-repeat!important;
+        background-size: cover !important;
+        padding-bottom: 526px !important;
+        margin-top: -60px !important;;
+    }
+    #amenities {
+        position: absolute !important;
+        top: 805px !important;
+        left: 39px !important;
+        z-index: 100 !important;
+    }
+    #about-us p {
+        color: black;
+        text-align: center;
+        font-size: 11px;
+        line-height: 37px;
+        font-weight: 800;
+    }
+    #routes {
+        background: url(../images/routes.png)!important;
+        padding-bottom: 227px !important;
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+    }
+    #routes .route-text p {
+        margin-top: 126px;
+        margin-left: -210px;
+        line-height: 28px;
+        font-size: 9px;
+        font-weight: 600;
+    }
+    #routes .route-shape {
+        border-radius: 100% !important;
+        box-shadow: 5px 5px 5px 5px grey !important;
+        text-align: center !important;
+        background-color: white !important;
+        position: absolute !important;
+        left: 255px !important;
+        top: 1303px !important;
+        margin-top: 3px !important;
+    }
+}
+
+@media (max-width: 1200px)
+{
+    #about-us {
+        background: url(../images/aboutus.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-bottom: 595px;
+        margin-top: -60px;
+    }
+    #routes {
+        background: url(../images/routes.png);
+        padding-bottom: 184px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .n-left 
+    {
+        top: -36px;
+        left: 10px;
+        z-index: 100;
+    }
+    .n-right
+    {
+        top: -36px;
+        right: 18px;
+        z-index: 100;
+    }
+    .book-div 
+    {
+        position: absolute;
+        top: 13px;
+        width: 100%;
+        z-index: 100;
+        margin: auto;
+        left: 3px;
+    }
+    .slider-content
+    {
+        margin-top: 0;
+        height: 286px;
+    }
+    #about-us .col-md-5 {
+        margin-top: -6px;
+        margin-left: -59px;
+    }
+    #amenities .blankets 
+    {
+        border-radius: 100%;
+        box-shadow: 5px 5px 5px 5px grey;
+        text-align: center;
+        background-color: white;
+        width: 181px;
+        height: 113px;
+        position: absolute;
+        top: 70px;
+        right: 0px;
+    }
+    #amenities .rest-stop {
+        border-radius: 100%;
+        box-shadow: 5px 5px 5px 5px grey;
+        text-align: center;
+        background-color: white;
+        width: 181px;
+        height: 113px;
+        position: absolute;
+        top: 193px;
+        left: 583px;
+    }
+    #amenities .livetracking {
+        border-radius: 100%;
+        box-shadow: 5px 5px 5px 5px grey;
+        text-align: center;
+        background-color: white;
+        width: 181px;
+        height: 113px;
+        position: absolute;
+        top: 152px;
+        left: 301px;
+    }
+    #routes .route-shape 
+    {
+        border-radius: 100%;
+        box-shadow: 5px 5px 5px 5px grey;
+        text-align: center;
+        background-color: white;
+        position: absolute;
+        left: 255px;
+        top: 1513px;
+        margin-top: 3px;
+    }
+}
+
+#amenities .amenities
+{
+    position: absolute;
+    top: 35px;
+    left: 1px;
+    z-index: 100;
+}
+#amenities 
+{
+    position: absolute;
+    top: 995px;
+    left: 145px;
+    z-index: 100;
+}
+
+@media (max-width:1300px)
+{
+    #amenities {
+        position: absolute;
+        top: 995px;
+        left: 99px;
+        z-index: 100;
+    } 
+    .book-div {
+        position: absolute;
+        top: 21px;
+        width: 100%;
+        z-index: 100;
+        margin: auto;
+        left: 3px;
+    }
+    .n-left 
+    {
+        top: -27px;
+        left: 10px;
+        z-index: 100;
+    }
+    .n-right 
+    {
+        top: -24px;
+        right: 18px;
+        z-index: 100;
+    }
+}
+
+@media (min-width :1400px)
+{
+    #about-us 
+    {
+        background: url(../images/aboutus.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: -100px;
+        padding-bottom: 699px;
+    }
+    #routes .route-shape 
+    {
+        border-radius: 100%;
+        box-shadow: 5px 5px 5px 5px grey;
+        text-align: center;
+        background-color: white;
+        position: absolute;
+        left: 275px;
+        top: 1665px;
+        margin-top: 3px;
+    }
+    .book-div 
+    {
+        position: absolute;
+        top: 54px;
+        width: 100%;
+        z-index: 100;
+        margin: auto;
+        left: 3px;
+    }
+    .n-left {
+        top: 9px;
+        left: 10px;
+        z-index: 100;
+    }
+    .n-right 
+    {
+        top: 9px;
+        right: 18px;
+        z-index: 100;
+    }
+}
+
+@media (min-width: 1500px)
+{
+    .book-div 
+    {
+        position: absolute;
+        top: 84px;
+        width: 100%;
+        z-index: 100;
+        margin: auto;
+        left: 3px;
+    }
+    .n-left 
+    {
+        top: 39px;
+        left: 20px;
+        z-index: 100;
+    }
+    .n-right 
+    {
+        top: 39px;
+        right: 18px;
+        z-index: 100;
+    }
+    #about-us {
+        background: url(../images/aboutus.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: -100px;
+        padding-bottom: 708px;
+    }
+    #amenities {
+        position: absolute;
+        top: 1075px;
+        left: 145px;
+        z-index: 100;
+    }
+    #about-us .col-md-5 
+    {
+        margin-top: 80px;
+        margin-left: -130px;
+    }
+    #routes .route-shape {
+        border-radius: 100%;
+        box-shadow: 5px 5px 5px 5px grey;
+        text-align: center;
+        background-color: white;
+        position: absolute;
+        left: 305px;
+        top: 1755px;
+        margin-top: 3px;
+    }
+}
+
+@media (min-width: 1600px)
+{
+    #about-us
+    {
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 3px;
+        height: 1309px;
+    }
+    #amenities
+    {
+        position: absolute;
+        top: 1223px;
+        left: 185px;
+        z-index: 100;
+    }
+    #routes {
+        background: url(../images/routes.png);
+        height: 761px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #routes .route-shape 
+    {
+        border-radius: 100%;
+        box-shadow: 5px 5px 5px 5px grey;
+        text-align: center;
+        background-color: white;
+        position: absolute;
+        left: 345px;
+        top: 1965px;
+        margin-top: 3px
+    }
+
+    .book-div 
+    {
+        position: absolute;
+        top: 125px;
+        width: 100%;
+        z-index: 100;
+        margin: auto;
+        left: 3px;
+    }
+
+    .n-left
+    {
+        top: 76px;
+        left: 28px;
+        z-index: 100;
+    }
+    .n-right {
+        top: 75px;
+        right: 18px;
+        z-index: 100;
+    }
+
+    #routes .route-text p
+    {
+        margin-top: 181px;
+        margin-left: -330px;
+        line-height: 45px;
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    #footer {
+        background: url(../images/ft.png);
+        height: 300px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        margin-top: 0px;
+    }
+    #about-us .col-md-5 
+    {
+        margin-top: 167px;
+    }
+    #routes .routes{
+        margin-left: -55px;
+        margin-top: 46px;
+    }
+    .slider-content {
+        margin-top: 0;
+        height: 316px;
+    }
+}
+
+.mobile-charge h4 ,.mobile-charge img, .airconditioner h4, .airconditioner img, .livetracking h4,.livetracking img,
+.wifi h4 ,.wifi img,.customer-care h4,.customer-care img, .rest-stop h4,.rest-stop img,.circle img,.blankets h4 ,.blankets img
+{
+    position: absolute;
+    font-size: 24px;
+}
+.mobile-charge
+{
+    border-radius: 100%;
+    box-shadow: 5px 5px 5px 5px grey;
+    text-align: center;
+    background-color: white;
+    width: 181px;
+    height: 113px;
+    position: absolute;
+    top: 30px;
+    left: 61px;
+}
+.mobile-charge h4 
+{
+    top: 128px;
+    left: 46px;
+}
+.mobile-charge img
+{
+    top: 13px;
+    left: 53px;
+}
+
+.livetracking{
+    border-radius: 100%;
+    box-shadow: 5px 5px 5px 5px grey;
+    text-align: center;
+    background-color: white;
+    width: 181px;
+    height: 113px;
+    position: absolute;
+    top: 200px;
+    left: 321px;
+}
+.livetracking h4 
+{
+    top: 131px;
+    left: 49px;
+}
+.livetracking img 
+{
+    top: 10px;
+    left: 55px;
+}
+.blankets
+{
+    border-radius: 100%;
+    box-shadow: 5px 5px 5px 5px grey;
+    text-align: center;
+    background-color: white;
+    width: 181px;
+    height: 113px;
+    position: absolute;
+    top: 195px;
+    right: -190px;
+}
+.blankets h4 
+{
+    top: 121px;
+    left: -5px;
+}
+.blankets img
+{
+    top: 10px;
+    left: 27px
+}
+
+.rest-stop
+{
+    border-radius: 100%;
+    box-shadow: 5px 5px 5px 5px grey;
+    text-align: center;
+    background-color: white;
+    width: 181px;
+    height: 113px;
+    position: absolute;
+    top: 285px;
+    left: 691px;
+}
+.rest-stop h4 
+{
+    top: 130px;
+    left: 35px;
+}
+.rest-stop img
+{
+    top: 14px;
+    left: 51px;
+}
+.circle img
+{
+    top: 241px;
+    left: 265px;
+}
+.amenities{
+    margin-top: 32px;
+    margin-bottom:578px;
+}
+#amenities p{
+    font-size: 19px;
+    font-weight: bold;
+    line-height: 27px;
+}
+#amenities h2,p{
+    color:black;
+}

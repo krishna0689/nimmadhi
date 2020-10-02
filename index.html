@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <title>NIMMADHI Travels</title>
+        <link href="https://web.cdn.ezeebus.com/portal/static/css/bootstrap.css" rel="stylesheet">
+        <link href="https://web.cdn.ezeebus.com/portal/static/css/font-awesome.css" rel="stylesheet">
+        <link href="https://web.cdn.ezeebus.com/portal/static/css/animate.css" rel="stylesheet">
+        <link href="assets/css/style.css" rel="stylesheet">     
+        <link rel="shortcut icon" href="assets/images/favicon.png">
+        <script src="https://web.cdn.ezeebus.com/portal/static/js/jquery.min.js"></script>
+        <script src="https://web.cdn.ezeebus.com/portal/static/js/bootstrap.min.js"></script>
+        <script src="https://web.cdn.ezeebus.com/portal/static/js/jquery.bxslider.js"></script>
+        <link rel="stylesheet" href="https://web.cdn.ezeebus.com/portal/static/css/jquery.bxslider.css" rel="stylesheet">
+        <script src="https://web.cdn.ezeebus.com/portal/static/lib/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>
+    </head>
+    <!--/head-->
+    <body>
+        <div class="top-header">
+            <div class="container">
+                <div class="col-md-12">
+                    <div class="col-md-6 col-sm-6">
+                        <img src="assets/images/phone.svg" alt="phoneicon">
+                        <span> +91 98840 51717 </span> &nbsp;
+                        <img src="assets/images/mail.svg" alt="mailicon">
+                        <span> nagarcoir@yahoo.com </span> 
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                        <ul>
+                            <li>  
+                                <img src="assets/images/c-login.svg" alt="login in NT"> <a href="javascript:;">Login</a>
+                            </li> &nbsp;
+                            <li> <img src="assets/images/a-login.svg" alt="Register in NT"> <a href="javascript:;">Register</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="bottom-header">
+                    <div class="col-md-12 navbar">
+                        <div class="col-md-4">
+                            <a href="index.html" class="navbar-brand"><img src="assets/images/logo.png"> </a>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle nav-button" data-toggle="collapse" data-target=".navbar-collapse">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                            </div>
+                            <div class="collapse navbar-collapse">
+                                <ul class="nav navbar-nav">
+                                    <li class="active"><a href="index.html">Home</a></li>
+                                    <li><a href="printticket.html">Print Ticket</a></li>
+                                    <li><a href="editticket.html">Edit Ticket</a></li>
+                                    <li><a href="cancelticket.html">Cancel Ticket</a></li>
+                                    <li><a href="contact.html">Contact</a></li>
+                                    <li><a href="Feedback.html">Feedback</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/header-->
+
+        <!-- SLIDER -->
+
+        <script>
+            $(document).ready(function () {
+                $('.slider').bxSlider();
+            });
+        </script>
+
+        <div class="slider-content">            
+            <div class="bxslider">
+                <div><img src="assets/images/sliders1.png" width="100%" alt="slider bus image"></div>
+                <div><img src="assets/images/sliders1.png" width="100%" alt="slider bus image"></div>
+                <div><img src="assets/images/sliders1.png" width="100%" alt="slider bus image"></div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-1 n-left">
+                    <h1> N </h1>
+                </div>
+                <div class="col-md-10">
+                    <div class="book-div" id="book-image"> 
+                        <div class="col-md-1"></div>
+                        <div class="col-md-2">
+                            <h4>From</h4>
+                            <select class="browser-default custom-select" id="">
+                                <option value="" disabled="" selected="">FROM </option>
+                                <option value="1">Chennai</option>
+                                <option value="2">Coimbatore</option>
+                                <option value="3">Banglore</option>
+                            </select>
+                        </div>
+                        <div class="swapicon">
+                            <img src="assets/images/icon-swap.jpg" alt="swap icon">
+                        </div>
+                        <div class="col-md-2">
+                            <h4>To</h4>
+                            <select class="browser-default custom-select" id="">
+                                <option value="#" disabled="" selected="">TO</option>
+                                <option value="1">Chennai</option>
+                                <option value="2">Coimbatore</option>
+                                <option value="3">Banglore</option>
+                            </select>
+                        </div>
+                        <div class="col-md-2">
+                            <h4>Journey Date</h4>
+                            <input type="text" id="" class="form-control"  placeholder="DD-MM-YYYY"> 
+                            <i class="fa fa-calendar cal"></i>
+                        </div>
+                        <div class="col-md-2">
+                            <h4>Return Date</h4>
+                            <input type="text" id="" class="form-control"  placeholder="DD-MM-YYYY"> 
+                            <i class="fa fa-calendar cal"></i>
+                        </div>
+                        <div class="col-md-2 text-center">
+                            <a href="javascript:;" type="submit" class="btn">Search</a>
+                        </div>
+                        <div class="col-md-1"></div>
+                    </div>
+                </div>
+                <div class="col-md-1 n-right">
+                    <h1> N </h1>
+                </div>
+            </div>
+        </div>
+
+        <div id="about-us">
+            <div class="container"> 
+                <div class="row">
+                    <div class="col-md-5 col-sm-6 text-center">
+                        <div class="about-shape">
+                            <br>
+                            <h2><b>ABOUT US</b></h2>
+                        </div>
+                        <br>
+                        <p>Providing travel solutions to their passengers with best in class quality by operating brand new fleets with well
+                            experienced professionals. Some of the Important routes of NIMMADHI Travels include Chennai to Madurai<br>Tuticorin,Udankudi,
+                            etc., Book NIMMADHI Travels bus tickets online in website and from your mobile with few easy steps.
+                        </p>
+                    </div>
+                    <!--/.col-sm-6-->
+
+                </div>
+            </div>
+        </div><!--/.row-->
+
+        <div id="amenities">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="amenities-shape">
+                            <br>
+                            <h2><b>AMENITIES</b></h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 col-sm-6 text-center amenities">
+                            <div class="mobile-charge">
+                                <img src="assets/images/mobile-charger.png">
+                                <h4> <b><i>Mobile <br> Charger </i></b></h4>
+                            </div>
+                            <div class="livetracking">
+                                <img src="assets/images/locationicon.png">
+                                <h4> <b><i>Live <br> Tracking</i></b></h4>
+                            </div>
+                            <div class="rest-stop">
+                                <img src="assets/images/rest.png">
+                                <h4> <b><i>Hygenic<br>Rest Stop</i></b></h4>
+                            </div>
+                            <div class="blankets">
+                                <img src="assets/images/blankets.png">
+                                <h4> <b><i>Clean & Hygenic<br>Blankets</i></b></h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="routes">
+            <div class="container"> 
+                <div class="row">
+                    <div class="col-md-4"></div>
+                    <div class="col-md-4 col-sm-6 route-shape">
+                        <h2><b><i>POPULAR ROUTES</i></b></h2><br>
+                    </div>
+                    <div class="col-md-4"></div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3"></div>
+                    <div class="col-md-6 col-sm-6 route-text">
+                        <p>Chennai to Madurai | Chennai to Tuticorin | Chennai to Udankudi | Chennai to  Tiruchendur <br>
+                            Chennai to Arumuganeri | Chennai to Trichy | Chennai to Thisayanvillai | Chennai to Kovilpatti
+                            Chennai to Aruppukottai | Chennai to Sathankulam | Chennai to Tenkasi | Chennai to Tirunelveli
+                            Chennai to Sankaran Koil | Chennai to Alangulam(Tirunelveli) | Chennai to Pavoorchatram<br>
+                            Chennai to Kurumbur | Chennai to Rajapalayam | Chennai to Srivilliputhur | Chennai to Krishnankoil</p>
+                    </div>
+                    <div class="col-md-3"></div>
+                </div>
+            </div>
+        </div><!--/.row-->
+
+        <footer id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="top-footer">
+                        <div class="col-md-6 footer-image">
+                            <img src="assets/images/footer-image.png">
+                            <p>Providing travel solutions to their passengers with best in class quality <br>by operating brand new fleets with well
+                                experienced professionals. Some of <br>the Important routes of NIMMADHI Travels include Chennai to Madurai <br>Tuticorin,Udankudi,
+                                etc., Book NIMMADHI Travels bus tickets online <br>in website and from your mobile with few easy steps.
+                            </p>
+                        </div>
+                        <div class="col-md-6 col-sm-6 footer-contact">
+                            <img src="assets/images/location.png" alt="location icon">
+                            <span> No.32 Omni Bus Stand,
+                                Koyambedu, Chennai - 600107. </span> <br><br>
+                            <img src="assets/images/phone.png" alt="phone icon">
+                            <span> +91 98840 51717 </span> <br><br>
+                            <img src="assets/images/mailicon.png" alt="mail icon">
+                            <span> nagarcoir@yahoo.com </span>
+                        </div>
+                    </div>
+                </div>
+        </footer>
+        
+        <div id="bottom-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-sm-6 text-center" >
+                        <ul class="useful-links">
+                            <b><li><a href="javascript:;">Schedules</a></li>
+                                <li><a href="javascript:;">FAQ</a></li>
+                                <li><a href="javascript:;">Terms &amp; Conditions</a></li>
+                                <li><a href="javascript:;">Feedback</a></li>
+                                <li><a href="javascript:;">Contact</a></li>
+                                <li><a href="javascript:;">Boarding Places</a></li></b>
+                        </ul>
+                    </div>
+                    <div class="col-md-12 col-sm-6 text-center">
+                        <p><b>&copy; 2020 Powered by <a target="_blank" href="https://www.ezeeinfocloudsolutions.com/"> Ezeeinfo Colud Solutions.</a> All Rights Reserved</b></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/#footer-->
+
+        <script>
+            $('.bxslider').bxSlider({
+                auto: true,
+                autoControls: true,
+                stopAutoOnClick: true,
+                pager: true,
+            });
+        </script>
+    </body>
+</html>
